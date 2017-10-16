@@ -1,13 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+.display{
+    overflow: auto;
+    position: absolute;
+    text-align: center;
+}
+#logo{
+	text-align: left;
+	font-family: Cambria;
+	margin-bottom: -40px;
+	padding-left: 150px;
+	
+}
+#menu ul{
+    text-align: right;
+	list-style: none;
+}
+#menu ul li{
+    text-align: right;
+	display: inline;
+}
+#menu ul li a{
+	font-family: Cambria;
+	color:#808080;
+    text-align: right;
+	padding-right: 150px;
+	
+}
+.menu{
+	text-align: left;
+	font-family: Cambria;
+	font-size:15px;
+	color:#808080;
+	margin-top: 100px;
+	padding-left: 160px;
+}
+.submenu{
+	text-align: left;
+	font-family: Cambria;
+	font-size:15px;
+	color:#808080;
+	margin-top: 50px;
+	
+}
+.Paragrafo{
+	text-align: left;
+	font-family: Cambria;
+	font-size:15px;
+	margin-bottom: 100px;
+	padding-left: 160px;
+}
+.row{
+	padding-left: 160px;
+	margin-top: 50px;
+}
+
+.newletter{
+	text-align: center;
+	padding: 50px;
+	background-color:#FAEBD7;
+	
+}
+.loadmore{
+	text-align: center;
+	padding: 50px;
+	margin-bottom: 100px;
+	background-color:#FAEBD7;
+	font-family: Cambria;
+	font-size:25px;
+	
+}
+.termsicons{
+	position: absolute;
+     right: 160px;
+     bottom: 10px;
+	
+}
+#Follow{
+	font-family: Cambria;
+	font-size:18px;
+	 position: absolute;
+		 right: 255px;
+		 bottom: 5px;
+
+}
+#terms{
+	font-family: Cambria;
+	font-size:18px;
+	 position: absolute;
+		 left: 160px;
+		 bottom: 5px;
+
+}
+
+
+</style>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Example</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
 </head>
 <body>
-  <!-- INICIE AQUI -->
+	<div class="display container-fluid ">
+		<div id="logo">
+			<h1>MINIM&Oslash;</h1>
+		</div>
+		<nav id="menu">
+			<ul>
+				<li><a href="#">LIVESTYLE</a></li>
+				<li><a href="#">PHOTODIARY</a></li>
+				<li><a href="#">MUSIC</a></li>
+				<li><a href="#">TRAVEL</a></li>
+			</ul>   
+		</nav>
+		<img class="displayed" src="file:///C:/Users/Julio/Documents/GIT/WebSite/website-example/boilerplate/imagens/imagem%201.png" alt="Imagem duas mulheres">
+		<a><h4 class="menu">PHOTODIARY</h4></a>
+			<div class="Paragrafo">
+				<h2>The perfect weekend getaway</h2>
+				<p>
+					lorem ipsum dolor sit amet, consectetur adipesicing elit, sed do ciusmod tempor incididumt ut labore et dolore magna aliqua. 
+					Ut enim adminim xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
+				</p>
+			</div>
+		<a><h4 class="menu">LEAVE A COMMENT</h4></a>
+		<div class="row">
+			<div class="col-md-5 Paragrafo">
+				<img src="file:///C:/Users/Julio/Documents/GIT/WebSite/website-example/boilerplate/imagens/imagem%202.png" class="img-responsive " alt="Imagem homem-festa">
+				<a><h4 class="submenu">LIVESTYLE</h4></a>
+				<h2 >More than just a music festival</h2>
+				<p>
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					
+							
+				</p>
+			</div>
+			<div class="col-md-5 Paragrafo">
+				<img src="file:///C:/Users/Julio/Documents/GIT/WebSite/website-example/boilerplate/imagens/imagem%203.png" class="img-responsive" alt="Imagem xicara de cafe">
+				<a><h4 class="submenu">LIVESTYLE</h4></a>
+				<h2>Live tastes better with coffee</h2>
+				<p>
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+						
+						
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 Paragrafo">
+				<img src="file:///C:/Users/Julio/Documents/GIT/WebSite/website-example/boilerplate/imagens/imagem%204.png" class="img-responsive" alt="Imagem duas mulheres e uma ponte">
+				<a><h4 class="submenu">PHOTODIARY</h4></a>
+				<h2 >Americam dream</h2>
+				<p>
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							
+							
+				</p>
+			</div>
+			<div class="col-md-5 Paragrafo">
+				<img src="file:///C:/Users/Julio/Documents/GIT/WebSite/website-example/boilerplate/imagens/imagem%205.png" class="img-responsive" alt="Imagem pessoa de costa">
+				<a><h4 class="submenu">PHOTODIARY</h4></a>
+				<h2>A day exploring the Alps</h2>
+				<p>
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					
+						
+				</p>
+			</div>
+		</div>
+		<div class="newletter">
+			<h2>Sign up for our newletter!</h2>
+			<input size="40" type="text" placeholder="Enter a valid email address" required>
+			
+			<button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-send" aria-hidden="true"></span></button>
+					
+		</div>
+		<div class="row">
+			<div class="col-md-5 Paragrafo">
+				<img src="file:///C:/Users/Julio/Documents/GIT/WebSite/website-example/boilerplate/imagens/imagem%206.png" class="img-responsive" alt="Imagem duas mulheres com a mao no chapeu">
+				<a><h4 class="submenu">LIVESTYLE</h4></a>
+				<h2 >Top 10 song for running</h2>
+				<p>
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+							
+							
+				</p>
+			</div>
+			<div class="col-md-5 Paragrafo">
+				<img src="file:///C:/Users/Julio/Documents/GIT/WebSite/website-example/boilerplate/imagens/imagem%207.png" class="img-responsive" alt="Imagem estrada com neve">
+				<a><h4 class="submenu">LIVESTYLE</h4></a>
+				<h2>Cold winter days</h2>
+				<p>
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					
+						
+				</p>
+			</div>
+		</div>
+		<div class="loadmore">
+				
+			<button type="button" class="btn btn-default btn-lg">Load more</button>
+					
+		</div>
+		<div>
+			<h3 id="Follow">Follow</h3>
+			<h3 id="terms">Terms and conditions  Privacy</h3>				
+		</div>
+		<div class="termsicons">
+			<button><i class="fa fa-facebook"></i></button>
+			<button><i class="fa fa-twitter"></i></button>
+			<button><i class="fa fa-instagram"></i></button>		
+		</div>
+	
+	
+	
+	</div>
 </body>
 </html>
